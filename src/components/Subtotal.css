@@ -1,0 +1,77 @@
+.subtotal{
+    display:flex;
+    flex-direction: column;
+    /* align-items: center ; */
+    justify-content: space-between;
+
+    padding:20px;
+    background-color: #f3f3f3;
+    border:1px solid #dddddd;
+    width:300px;
+    height:200px;
+    margin-left:20px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 10px rgb(221, 219, 219);
+}
+
+.subtotal__gift__coupon{
+    display: flex;
+    flex-direction: column;
+}
+
+.subtotal__gift__coupon > div {
+    margin: 8px 0;
+    font-size: large;
+    display: flex;
+    align-items: center;
+}
+
+.subtotal__gift__coupon > div > input[type="text"] {
+    background-color: cornsilk;
+    margin-left: 12px;
+    margin-top: 4px;
+    /* border-radius: 5px; */
+    outline-style: none;
+    width:85px;
+    height:20px; 
+    font-size: large;
+    box-shadow: 3px 3px 10px rgb(221, 219, 219);
+}
+
+.subtotal > button {
+    margin-top: 2px;
+    font-size: medium;
+
+    background: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    height:30px;
+    color: #111;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.subtotal__text{
+    font-size: large;
+}
+
+
+
+@media(max-width:544px){
+    .subtotal{
+        max-width:300px;
+        padding:10px;
+        margin-top: 20px;
+        margin-left:0px;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .subtotal__text{
+        font-size: large;
+    }
+
+   
+}

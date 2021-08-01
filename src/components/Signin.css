@@ -1,0 +1,164 @@
+
+#toast-container{
+    position: fixed;
+    top: 80px;
+    right:50px;
+    /* background-color: rgba(250, 95, 75, 0.938); */
+    border-radius: 2px;
+    /* box-shadow: 3px 0px 3px rgba(250, 95, 75, 0.938); */
+    font-size: large;
+    border-radius: 2px;
+    width: max-content;
+    text-align: center;
+
+  }
+
+  .toast__success{
+      background-color: rgb(17, 90, 8);
+      color:white;
+      border-radius: 2px;
+      box-shadow: 5px 5px 6px rgb(17, 90, 8);
+      width:200px;
+  }
+
+  .toast__failure{
+    background-color: rgb(245, 35, 35);
+    color:white;
+    border-radius: 2px;
+    width: 100%;
+}
+
+
+
+.login{
+    background-color: #131921;
+
+    box-shadow: 12px 0 10px -4px rgba(96, 136, 184, 0.8), 
+    -12px 0 10px -4px rgba(96, 136, 184, 0.8);
+
+    height: fit-content;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    padding:10px;
+    border-radius: 20px;
+}
+
+.login__title__logo{
+    display:flex;
+    align-items: center;
+    margin-right:10px;
+}
+
+.login__title{
+    margin: 0 20px;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-size: large;
+    font-weight: 800;
+}
+
+a 
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+.login__logo{
+   width:50px;
+   margin: 20px auto;
+
+}
+
+.login__container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.login__container > h1 {
+    color:white;
+    font-weight: 200;
+}
+
+.login__container > form > p {
+      color:white;
+}
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+    width:200px;
+    margin-top: 20px;
+}
+
+form > h5 {
+    color: white;
+    font-size: medium;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 3px;
+
+}
+
+form > button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form > p {
+    font-size: small;
+}
+
+.login__signInButton {
+    margin-top: 2px;
+    font-size: 16px;
+    background: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    border: 1px solid;
+    height:30px;
+    color: #111;
+    font-weight: 400;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login__createAccButton{
+    font-size: 15px;
+    background: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    border: 1px solid;
+    /* padding-bottom:30px; */
+    height:30px;
+    color: #111;
+    font-weight: 400;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form > input {
+    height: 17px;
+    padding:3px;
+}
+
+
+@media(max-width: 544px) {
+    .login{
+        margin-top:20px;
+        margin-bottom: 40px;
+        height:fit-content;
+        width: fit-content;
+      
+    }
+
+    #toast-container{
+        width:50%;
+    }
+    
+    
+}
+
